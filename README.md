@@ -1,5 +1,5 @@
 <div align="center">
-<img width="460" src="/assets/images/cool.png">
+<img width="460" src="https://raw.githubusercontent.com/cisagov/cool-system/develop/assets/images/cool_logo.png">
 </div>
 
 # Cloud Oriented Operations Lab (COOL) #
