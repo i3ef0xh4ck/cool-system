@@ -5,7 +5,7 @@
 1. Log into a COOL server.
 1. Obtain a Kerberos ticket-granting ticket.
 
-  `kinit <username>`
+    `kinit <username>`
 
 1. Create user:
 
@@ -37,6 +37,6 @@
 
 1. Destroy the cached Kerberos tickets.
 
-  `kdestroy`
+    `kdestroy`
 
 1. Logout
