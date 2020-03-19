@@ -6,15 +6,26 @@
 
 [![GitHub Build Status](https://github.com/cisagov/cool-system/workflows/build/badge.svg)](https://github.com/cisagov/cool-system/actions)
 
-This is a generic skeleton project that can be used to quickly get a
-new [cisagov](https://github.com/cisagov) GitHub project started.
-This skeleton project contains [licensing information](LICENSE), as
-well as [pre-commit hooks](https://pre-commit.com) and
-[GitHub Actions](https://github.com/features/actions) configurations
-appropriate for the major languages that we use.
+Welcome to the CISA's Cloud Oriented Operations Lab (COOL).
 
-In many cases you will instead want to use one of the more specific
-skeleton projects derived from this one.
+## Quick links for COOL users ##
+
+- [Get a COOL user account](/guides/users/enrolling.md) –
+Instructions for creating your user account for COOL access.
+- [Access your assessment environment](/guides/users/login.md) –
+Steps for accessing your assessment environment with your COOL user account.
+- [Report an issue](/issues/new/choose) – Request a change or report a bug.
+
+## Common administration tasks ##
+
+- [User Management](/guides/admin/users.md)
+- [Environment Management](/guides/admin/env.md)
+
+## Initial setup and configuration ##
+
+- [AWS Account Creation](/guides/initial/aws_accounts.md)
+- [Infrastructure Deployment](/guides/initial/infra.md)
+- [LDAP](/guides/initial/ldap.md)
 
 ## Contributing ##
 
