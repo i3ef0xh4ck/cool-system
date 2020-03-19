@@ -14,7 +14,7 @@ Welcome to the CISA's Cloud Oriented Operations Lab (COOL).
 Instructions for creating your user account for COOL access.
 - [Access your assessment environment](/guides/users/login.md) –
 Steps for accessing your assessment environment with your COOL user account.
-- [Submit Feedback](https://github.com/cisagov/cool-system/issues/new/choose)
+- [Submit feedback](https://github.com/cisagov/cool-system/issues/new/choose) –
   Found something that needs changing?  Open an issue and let us know.
 
 ## Common administration tasks ##
