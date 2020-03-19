@@ -1,4 +1,8 @@
-# cool-system #
+<div align="center">
+<img width="460" src="/assets/images/cool.png">
+</div>
+
+# Cloud Oriented Operations Lab (COOL) #
 
 [![GitHub Build Status](https://github.com/cisagov/cool-system/workflows/build/badge.svg)](https://github.com/cisagov/cool-system/actions)
 
