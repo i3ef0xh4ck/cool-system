@@ -6,14 +6,14 @@
 We are currently enrolling federal employees and contractors from CISA
 Vulnerability Management into the COOL as testers.
 
-## Begin your enrollment. ##
+## Beginning your enrollment ##
 
 Access to the COOL requires PIV authentication.  In order for us to authorize
-your PIV we need you to send us the issuer and subject from your PIV's
-public certificate.
+your PIV we need you to send us your PIV's public certificate using the steps
+below.
 
 *Note:* The following instructions are Mac-specific but they should be easily
-adapted to other environments.
+adapted to [other environments](https://i.redd.it/lsq21vitcfq21.jpg).
 
 Steps:
 
