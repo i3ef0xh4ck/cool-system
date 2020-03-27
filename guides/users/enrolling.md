@@ -22,9 +22,9 @@ Steps:
 [Terminal](https://support.apple.com/guide/terminal/welcome/mac) and run the
 following command to copy your public key to the clipboard:
 
-  ```console
-  pkcs15-tool --read-certificate 1 | pbcopy
-  ```
+    ```console
+    pkcs15-tool --read-certificate 1 | pbcopy
+    ```
 
 1. Create a new email to
 [cisa-cool-group@trio.dhs.gov](mailto:cisa-cool-group@trio.dhs.gov?subject=[GitHub]%20COOL%20Access%20Request)
