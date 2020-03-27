@@ -4,6 +4,8 @@
 
 1. You have access to the internet.
 1. You have a laptop with Viscosity VPN software installed.
+1. You have imported the "CISA COOL" Viscosity connection bundle that was sent
+to you via email.
 1. You have a PIV (Personal Identity Verification) card.
 1. You know the PIN to unlock your PIV.
 
