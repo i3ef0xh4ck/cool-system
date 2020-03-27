@@ -15,18 +15,20 @@ public certificate.
 *Note:* The following instructions are Mac-specific but they should be easily
 adapted to other environments.
 
-Insert your PIV into the reader attached to your machine.  On the same machine,
-open the [Terminal](https://support.apple.com/guide/terminal/welcome/mac) and
-run the following command:
+Steps:
 
-```console
-pkcs15-tool --read-certificate 1 | \
-openssl x509 -noout -subject -issuer -nameopt rfc2253 | pbcopy
-```
+1. Insert your PIV into the reader attached to your machine.
+1. On the same machine, open the
+[Terminal](https://support.apple.com/guide/terminal/welcome/mac) and run the
+following command to copy your public key to the clipboard:
 
-The command copied the subject and issuer to your clipboard.  Now paste the
-result into an email and send it to
-[cisa-cool-group@trio.dhs.gov](mailto:cisa-cool-group@trio.dhs.gov?subject=[GitHub]%20COOL%20Access%20Request).
+  ```console
+  pkcs15-tool --read-certificate 1 | pbcopy
+  ```
 
-Once we have received your information we'll contact you with a couple
-additional instructions to complete your COOL enrollment.
+1. Create a new email to
+[cisa-cool-group@trio.dhs.gov](mailto:cisa-cool-group@trio.dhs.gov?subject=[GitHub]%20COOL%20Access%20Request)
+and paste in the certificate data.
+
+Once we have received your information we'll contact you with a few additional
+steps to complete your COOL enrollment.
