@@ -15,24 +15,16 @@
 
     `ipa group-add-member vpnusers --user testy.testerson`
 
-1. Tail the system log while the user attempts a connection:
-
-    `sudo tail -f /var/log/syslog | grep -A1 "No matching certificate found in LDAP"`
-
-    ```console
-    Mar 16 20:57:32 vpn openvpn[690]: VERIFY-CN: WARNING No matching
-    certificate found in LDAP Mar 16 20:57:32 vpn openvpn[690]: VERIFY-CN:
-    WARNING Searched for: CN=TESTY T TESTERSON,OU=People,OU=DHS HQ,OU=Department
-    of Homeland Security,O=U.S. Government,C=US
-    ```
-
-1. Add the certificate mapping date for the user using the search string in the log:
+1. Add the certificate mapping data to the user.  You will need the base64
+encoded public certificate from the user's `[GitHub] COOL Access Request` email.
+This is the data **between** the `-----BEGIN CERTIFICATE-----` and `-----END
+CERTIFICATE-----` delimiters.  Exclude the delimiters from the command:
 
     ```console
-    ipa user-add-certmapdata testy.testerson "X509:<I>OU=DHS
-    CA4,OU=Certification Authorities,OU=Department of Homeland Security,O=U.S.
-    Government,C=US<S>CN=TESTY T TESTERSON,OU=People,OU=DHS HQ,OU=Department of
-    Homeland Security,O=U.S. Government,C=US"
+    ipa user-add-certmapdata testy.testerson --certificate "MIJH8jCBBtqgBwIB...
+    ...
+    ...
+    /U1di1yoDTI2cJlmmw=="
     ```
 
 1. Destroy the cached Kerberos tickets.
