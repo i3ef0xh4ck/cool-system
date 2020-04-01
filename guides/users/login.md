@@ -1,6 +1,13 @@
 # COOL User Login #
 
-## Pre-Requisites ##
+## Table of contents ##
+
+* [Pre-requisites](#pre-requisites)
+* [First-time Viscosity configuration](#first-time-viscosity-configuration)
+* [Connect to the COOL VPN](#connect-to-the-cool-vpn)
+* [Connect to the Guacamole remote desktop environment](#connect-to-the-guacamole-remote-desktop-environment)
+
+## Pre-requisites ##
 
 1. You have access to the internet.
 1. You have a laptop with Viscosity VPN software installed.
@@ -9,7 +16,7 @@ to you via email.
 1. You have a PIV (Personal Identity Verification) card.
 1. You know the PIN to unlock your PIV.
 
-## Configure the "CISA COOL" Connection in Viscosity ##
+## First-time viscosity configuration ##
 
 NOTE: These steps only need to be done once, before the first time you connect
 to the COOL VPN.
@@ -54,7 +61,7 @@ to the COOL VPN.
    <img width="460" src="https://raw.githubusercontent.com/cisagov/cool-system/develop/assets/images/viscosity_connected.png">
    </div>
 
-## Connect to the Guacamole Remote Desktop Environment ##
+## Connect to the Guacamole remote desktop environment ##
 
 1. After you have connected to the COOL VPN, open the Chrome browser on your
    laptop and go to
