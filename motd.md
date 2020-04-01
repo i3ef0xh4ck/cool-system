@@ -1,10 +1,8 @@
+# Welcome to CISA's Cloud Oriented Operations Lab (COOL) #
+
 <div align="center">
 <img width="460" src="https://raw.githubusercontent.com/cisagov/cool-system/develop/assets/images/cool_logo.png">
 </div>
-
-# Cloud Oriented Operations Lab (COOL) #
-
-Welcome to the CISA's Cloud Oriented Operations Lab (COOL).
 
 * **You are accessing a U.S. Government information system, which includes
   (1) this computer, (2) this computer network, (3) all computers connected
