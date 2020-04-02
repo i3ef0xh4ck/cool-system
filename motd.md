@@ -4,6 +4,8 @@
 <img width="460" src="https://raw.githubusercontent.com/cisagov/cool-system/develop/assets/images/cool_logo.png">
 </div>
 
+---
+
 * **You are accessing a U.S. Government information system, which includes
   (1) this computer, (2) this computer network, (3) all computers connected
   to this network and (4) all devices and storage media attached to this
@@ -25,6 +27,8 @@
     information system for any lawful government purpose.**
   * **You are NOT authorized to process classified information on this
     information system.**
+
+---
 
 ## COOL news ##
 
