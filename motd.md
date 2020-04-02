@@ -30,9 +30,31 @@
 
 ---
 
-## COOL news ##
+## COOL News ##
 
-* Alpha testing is ongoing- please
+### April 2nd, 2020 ###
+
+Heads up that we are going to be refreshing the `env0` RPT test environment this
+afternoon at **1400 EDT**.  This means that new, updated instances of Guacamole
+and Kali will be deployed, along with the underlying services (OpenVPN and
+FreeIPA).  Be prepared to lose everything that you had previously set up on the
+Kali instances.
+
+The biggest thing that we will be rolling out is a persistent [EFS
+volume](https://aws.amazon.com/efs/) that can be accessed by each Kali instance.
+This shared storage will be available at `/data` on each Kali.  Note that you
+must use `sudo` to create any files or directories within `/data` and assign any
+relevant ownership (e.g. make the group owner `vnc` or `kali-trusted` or
+whatever).  We can discuss some options to automatically set this up in the
+future, but for now, that is how it is.
+
+There are a bunch of other changes being rolled out, but they are mostly under
+the covers.  If you have any questions or issues with the **1400 EDT** refresh
+today, please let us know ASAP.
+
+### March, 2020 ###
+
+Alpha testing is ongoing- please
   [contact us](https://github.com/cisagov/cool-system/issues/new/choose) if
   you have questions or encounter any issues.
 
