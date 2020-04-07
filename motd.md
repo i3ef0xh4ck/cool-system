@@ -32,7 +32,22 @@
 
 ## COOL News ##
 
-### April 2nd, 2020 ###
+### April 6, 2020 ###
+
+The assessment test environment has been
+[upgraded with bigger and better instances](https://github.com/cisagov/cool-assessment-terraform/pull/29):
+
+* The Guacamole instance was upgraded from
+[t3.micro to t3.medium](https://aws.amazon.com/ec2/instance-types/t3/).
+* The Kali instances were upgraded from
+[t2.medium to t2.large](https://aws.amazon.com/ec2/instance-types/t2/).
+Note that our Kali instances are based on an
+[AWS Marketplace AMI](https://aws.amazon.com/marketplace/pp/Kali-Linux-Kali-Linux/B01M26MMTT)
+that does not yet support the more modern
+["t3" AWS instance types](https://aws.amazon.com/ec2/instance-types/t3/),
+so we are stuck with "t2" instances for now.
+
+### April 2, 2020 ###
 
 Heads up that we are going to be refreshing the `env0` RPT test environment this
 afternoon at **1400 EDT**.  This means that new, updated instances of Guacamole
