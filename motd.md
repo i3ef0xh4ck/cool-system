@@ -32,14 +32,25 @@
 
 ## COOL News ##
 
+### April 29, 2020 ###
+
+A [Nessus instance](https://github.com/cisagov/cool-assessment-terraform/issues/31)
+([`v0.0.2`](https://github.com/cisagov/nessus-packer/releases/tag/v0.0.2))
+has been deployed to the `env0` RPT test environment.  It is only accessible
+from the Kali instances via a web browser at this URL:
+[https://nessus0.env0:8834](https://nessus0.env0:8834)
+
+Please reach out to the Dev Team if you need Nessus login credentials.
+Or just hack your way in, if you can. ;)
+
 ### April 28, 2020 ###
 
 Kali image
 [`v0.0.15`](https://github.com/cisagov/kali-packer/releases/tag/v0.0.15) has
 been deployed to production.  This release includes:
 
-* [additional assessment tools](https://github.com/cisagov/ansible-role-kali/issues/8).
-* [cosmetic and quality of life improvements](https://github.com/cisagov/ansible-role-xfce-cool)
+* [Additional assessment tools](https://github.com/cisagov/ansible-role-kali/issues/8).
+* [Cosmetic and quality of life improvements](https://github.com/cisagov/ansible-role-xfce-cool)
   for the desktop environment.
 
 ### April 6, 2020 ###
