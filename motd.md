@@ -32,6 +32,16 @@
 
 ## COOL News ##
 
+### April 28, 2020 ###
+
+Kali image
+[`v0.0.15`](https://github.com/cisagov/kali-packer/releases/tag/v0.0.15) has
+been deployed to production.  This release includes:
+
+* [additional assessment tools](https://github.com/cisagov/ansible-role-kali/issues/8).
+* [cosmetic and quality of life improvements](https://github.com/cisagov/ansible-role-xfce-cool)
+  for the desktop environment.
+
 ### April 6, 2020 ###
 
 The assessment test environment has been
