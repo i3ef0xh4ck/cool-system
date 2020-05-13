@@ -1,4 +1,4 @@
-# Welcome to CISA's Cloud Oriented Operations Lab (COOL) #
+# Welcome to CISA's Cloud Optimized Operations Lab (COOL) #
 
 <div align="center">
 <img width="460" src="https://raw.githubusercontent.com/cisagov/cool-system/develop/assets/images/cool_logo.png">

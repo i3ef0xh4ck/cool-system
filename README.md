@@ -2,11 +2,11 @@
 <img width="460" src="https://raw.githubusercontent.com/cisagov/cool-system/develop/assets/images/cool_logo.png">
 </div>
 
-# Cloud Oriented Operations Lab (COOL) #
+# Cloud Optimized Operations Lab (COOL) #
 
 [![GitHub Build Status](https://github.com/cisagov/cool-system/workflows/build/badge.svg)](https://github.com/cisagov/cool-system/actions)
 
-Welcome to the CISA's Cloud Oriented Operations Lab (COOL).
+Welcome to the CISA's Cloud Optimized Operations Lab (COOL).
 
 ## Quick links for COOL users ##
 
