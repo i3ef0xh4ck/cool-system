@@ -19,8 +19,8 @@ Steps for accessing your assessment environment with your COOL user account.
 
 ## Common administration tasks ##
 
-- [User Management](/guides/admin/users.md)
-- [Environment Management](/guides/admin/env.md)
+- [User Management](https://github.com/cisagov/cool-system/wiki/Operator-Runbooks#users)
+- [Environment Management](https://github.com/cisagov/cool-system/wiki/Operator-Runbooks#environments)
 
 ## Initial setup and configuration ##
 
