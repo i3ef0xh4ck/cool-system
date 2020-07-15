@@ -32,6 +32,22 @@
 
 ## COOL News ##
 
+### July 14, 2020 ###
+
+Guacamole instances in COOL assessment environments now can only be accessed
+with valid Kerberos credentials.  The following one-time setup steps must be
+completed on your local system in order to access Guacamole:
+
+* [Configure Kerberos for the COOL](https://github.com/cisagov/cool-system/wiki/Configuring-Kerberos-for-the-COOL)
+* [Configure your browser for the COOL](https://github.com/cisagov/cool-system/wiki/Configuring-your-browser-for-the-COOL)
+
+After you have completed the setup steps above, you are ready to
+[access a COOL assessment environment with Guacamole](https://github.com/cisagov/cool-system/wiki/Accessing-an-assessment-environment-with-Guacamole).
+
+As always, please
+[contact us](https://github.com/cisagov/cool-system/issues/new/choose) if
+encounter any issues or have questions.
+
 ### April 29, 2020 ###
 
 A [Nessus instance](https://github.com/cisagov/cool-assessment-terraform/issues/31)
